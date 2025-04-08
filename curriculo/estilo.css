@@ -1,0 +1,85 @@
+body{font-size: 20px;}
+
+
+
+
+header{
+    display: flex;/*definir o meu layout flexivel para eu altera os elementos*/
+    align-items: center;/*alinhar os itens verticalmente ao centro*/;
+    justify-content: space-between;
+    background-color: rgba(126, 174, 202, 0.788);
+
+}
+header .profile img{
+    width: 100px;/*largura*/
+    height: 100px;/*altura*/
+    border-radius: 50%;/*borda arredondada*/
+    padding: 20%;
+}
+
+header .links a{
+    text-decoration: none;
+    color: rgba(42, 50, 158, 0.719);/*cor do texto*/
+    font-weight: bold;/*negrito*/
+    margin: 0 10px;/*margem*/
+    font-size: 20px;/*tamanho da fonte*/
+
+}
+.descricao{
+    text-align: center ;
+    margin: 20px;
+    
+}
+.conteudo{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.bloco{
+    width: 30%;
+    padding: 15px;
+    background-color: rgba(126, 174, 202, 0.788);
+    border-radius: 10px;
+    border: 1px solid rgba(29, 67, 88, 0.719);
+}
+
+.falacomigo{
+    text-align: center;
+    margin: 20px;
+} 
+form{
+    display: inline-block;
+    text-align: left;
+}
+form label{
+    display: block;
+    margin: 5px 0;
+}   
+
+form input{
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid rgba(29, 67, 88, 0.719);
+    border-radius: 8px;
+}
+form button{
+    background-color: rgba(126, 174, 202, 0.788);
+    color: rgb(25, 28, 32);
+    padding: 10px 15px;
+    border: 1px solid rgba(29, 67, 88, 0.719);
+    border-radius: 5px;
+}
+
+.fim{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.blocos{
+    width: 30%;
+    padding: 15px;
+    background-color: rgba(126, 174, 202, 0.788);
+    border-radius: 10px;
+    border: 1px solid rgba(29, 67, 88, 0.719);
+}
